@@ -2,7 +2,7 @@
 
 The official landing page for the [CookMate](https://github.com/avijit969/cookmate) mobile application. This modern, responsive website showcases the app's features and provides a direct download link for users.
 
-![CookMate Website Hero](./public/home-page.jpeg)
+<!-- ![CookMate Website Hero](./public/home-page.jpeg) -->
 
 ## ✨ Features
 
