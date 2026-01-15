@@ -19,7 +19,7 @@ export default function HeroSection() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
-                                href="https://github.com/avijit969/cookmate"
+                                href="https://pub-6920084430834985bcce8c3128f020b5.r2.dev/cookmate.apk"
                                 className="flex items-center justify-center gap-2 rounded-full bg-orange-600 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-orange-500 hover:scale-105 active:scale-95"
                             >
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

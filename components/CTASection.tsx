@@ -15,7 +15,7 @@ export default function CTASection() {
                         </p>
                         <div className="flex gap-4">
                             <Link
-                                href="https://github.com/avijit969/cookmate"
+                                href="https://pub-6920084430834985bcce8c3128f020b5.r2.dev/cookmate.apk"
                                 className="rounded-full bg-white px-8 py-4 text-base font-semibold text-zinc-900 shadow-lg transition-transform hover:scale-105 active:scale-95 hover:bg-zinc-100"
                             >
                                 Download for Free

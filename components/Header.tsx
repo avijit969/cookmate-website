@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Github } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -51,11 +51,11 @@ export default function Header() {
                 {/* Action Button & Mobile Toggle */}
                 <div className="flex items-center gap-4">
                     <Link
-                        href="https://github.com/avijit969/cookmate"
+                        href="https://pub-6920084430834985bcce8c3128f020b5.r2.dev/cookmate.apk"
                         target="_blank"
                         className="hidden md:flex items-center gap-2 rounded-full bg-zinc-900 px-5 py-2 text-sm font-semibold text-white transition-transform hover:scale-105 hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200 shadow-lg hover:shadow-xl"
                     >
-                        <Github className="w-4 h-4" />
+                        <Download className="w-4 h-4" />
                         <span>Get App</span>
                     </Link>
 
@@ -85,12 +85,12 @@ export default function Header() {
                             </Link>
                         ))}
                         <Link
-                            href="https://github.com/avijit969/cookmate"
+                            href="https://pub-6920084430834985bcce8c3128f020b5.r2.dev/cookmate.apk"
                             target="_blank"
                             className="flex items-center justify-center gap-2 rounded-full bg-zinc-900 px-5 py-3 text-sm font-semibold text-white transition-transform active:scale-95 dark:bg-white dark:text-zinc-900"
                             onClick={() => setMobileMenuOpen(false)}
                         >
-                            <Github className="w-4 h-4" />
+                            <Download className="w-4 h-4" />
                             <span>Get App</span>
                         </Link>
                     </div>
