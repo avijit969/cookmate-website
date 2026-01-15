@@ -1,0 +1,10 @@
+[
+    {
+        "relation": "delegate_permission/common.handle_all_urls",
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.abhijit969.cookmate",
+            "sha256_cert_fingerprints": "D2:A3:E9:11:90:28:35:86:1E:8A:87:33:7C:FF:27:5D:1D:DF:6C:3A:1F:75:84:11:CD:39:6F:B7:B6:AC:83:FB"
+        }
+    }
+]
